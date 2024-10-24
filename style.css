@@ -1,0 +1,274 @@
+* {
+    /* записываем начальный стиль для каждого элемента */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* header блок */
+  
+  .header {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 53px;
+    margin-bottom: 76px;
+  }
+  
+  .header-list {
+    display: flex;
+    gap: 40px; /* для одинаковых отступов между элементами */
+    list-style-type: none; /* для удаления точек у списка */
+  }
+  
+  .logo-home {
+    display: flex;
+    margin-right: 150px;
+  }
+  
+  .header-button {
+    background-color: #19bce4;
+    color: white;
+    border-radius: 6px; /* радиус рамки,закругленности вашего элемента*/
+    font-size: 16px; /* размер шрифта на сайта*/
+    width: 96px;
+    height: 40px;
+    cursor: pointer; /* изменение мыши при наведении на эдлемент */
+    transition: ease 0.5s; /* для того чтобы плавно изменять элементы */
+    border: solid 1px #19bce4; /* рамка в которой лежат элементы */
+  }
+  
+  .header-button:hover {
+    /* псевдокласс для изменения элементов при наведении мышки */
+    background-color: white;
+    color: #19bce4;
+  }
+  .title {
+    color: white;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 200;
+  }
+  .main{
+    background-image: url(./image/Group\ 3459\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+    padding: 185px 130px 0 130px;
+    margin-bottom: 120px;
+  }
+  .section-block{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 15px 24px 34px;
+    background-color: #ffffff;
+  }
+  .info {
+    padding: 10px 135px 11px 30px;
+    border: #19bce4;
+  }
+  .drop-dawn {
+    border: none;
+    margin-bottom: 8px;
+  }
+  .search-btn{
+    background-color: #19bce4;
+    color: white;
+    width: 259px;
+    height: 77px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease 0.5s;
+  }
+.search-btn:hover {
+    background-color: white;
+    color: #19bce4;
+}
+.text-mainblock{
+    color: white;
+    margin-bottom: 97px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+.grew{
+  display: flex;
+  margin-bottom: 203px;
+  padding-left: 144px;
+}
+.was{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.rew{
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.qwer{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.vera{
+  display: flex;
+}
+.fed{
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.ger{
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.der{
+  margin-bottom: 24px;
+}
+.asdf{
+  margin-right: 80px;
+}
+.zxc{
+  background-color: #19bce4;
+  color: white;
+  font-size: 18px;
+  width: 170px;
+  height: 56px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.her{
+  display: flex;
+}
+.redf{
+  margin-right: 51px;
+}
+.oiu{
+  padding: 24px 65px 24px 24px;
+  display: flex;
+  margin-bottom: 16px;
+  background-color: white;
+}
+.zxc{
+  margin-right: 28px;
+}
+.trew{
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+.ber{
+  margin-right: 28px;
+}
+.bnm{
+  background-color: #F8FDFE;
+  padding-left: 166px;
+  margin-bottom: 100px;
+  
+}
+.poi{
+  font-size: 48px;
+  margin-bottom: 68px;
+}
+.duophoto{
+  display: flex;
+  position: relative;
+  margin-right: 80px;
+}
+.image2{
+   position: absolute;
+   z-index: 1;
+   bottom: -20px;
+   right: -50px;
+   
+}
+.vbnm{
+  padding-left: 140px;
+ margin-bottom: 100px;
+  display: flex;
+}
+.lolo{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.fix{
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.compo{
+  background-color: #19bce4;
+  color: white;
+  font-size: 18px;
+  width: 190px;
+  height: 56px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.div1234{
+   display: flex;
+}
+.div333{
+  display: flex;
+}
+.div444{
+  margin-right: 45px;
+  list-style-type: none;
+}
+.div99{
+  margin-right: 44px;
+  margin-bottom: 37px;
+  font-size: 18px;
+}
+.div5{
+  display: flex;
+  margin-bottom: 20px;
+}
+.div1{
+  margin-right: 16px;
+}
+.div2{
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.div3{
+  margin-bottom: 6px;
+}
+.div4{
+  padding: 0 144px;
+}
+.h5{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.div09 {
+  border-radius: 24px;
+  width: 100%;
+  height: 251px;
+  background-color: #19bce4;
+  padding: 48px 216px 52px 216px;
+  margin-bottom: 143px;
+}
+.btn45{
+  font-size: 18px;
+  color: white;
+  width: 120px;
+  height: 48px;
+  border: none;
+  border-radius: 6px;
+  background-color: #19bce4;
+  cursor: pointer;
+  position: absolute ;
+  z-index: 1;
+  right: 20px;
+  top: 10px;
+}
+.input6{
+  width: 100%;
+  height: 64px;
+  border: none;
+  border-radius: 6px;
+  padding: 0 150px 0 15px;
+}
